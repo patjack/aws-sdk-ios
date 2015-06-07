@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
                      :tag => s.version}
   s.frameworks   = 'UIKit', 'Foundation', 'SystemConfiguration'
   s.requires_arc = true
-  s.dependency 'Bolts', '~> 1.1.0'
+  s.dependency 'Bolts/Tasks', '~> 1.1.5'
   s.dependency 'Mantle', '~> 1.4'
   s.dependency 'XMLDictionary', '~> 1.4.0'
   s.dependency 'UICKeyChainStore', '~> 2.0'
